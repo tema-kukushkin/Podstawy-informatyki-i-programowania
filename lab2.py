@@ -16,9 +16,9 @@ def devision_int (x,y):
 def remainder_devision (x,y):
     dev_rem=x%y
     return dev_rem
-print("suma to jest: ",suma (2,4))
-print("róźnica jest: ",difference (2,4))
-print("mnożenie jest: ",multiplication (2,4))
-print("dzielenie jest: ",devision (2,4))
-print("dzielenie całeliczbowe",devision_int (2,4))
-print("pozostalość od dzieleniadzielenie",remainder_devision (4,3))
+print("Suma to jest: ",suma (2,4))
+print("Róźnica to jest: ",difference (2,4))
+print("Mnożenie to jest: ",multiplication (2,4))
+print("Dzielenie to jest: ",devision (2,4))
+print("Dzielenie całeliczbowe to jest",devision_int (2,4))
+print("Pozostalość od dzieleniadzielenie to jest",remainder_devision (4,3))
