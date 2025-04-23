@@ -5,7 +5,7 @@ from tkcalendar import DateEntry
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-#test function
+
 def filter_and_group(df, date_from, date_to):
     df_filtered = df[(df["date"] >= date_from) & (df["date"] <= date_to)]
     return df_filtered.groupby("date")["value"].mean().reset_index()
